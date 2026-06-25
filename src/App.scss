@@ -1,0 +1,22 @@
+$primary-color: #A300A3; 
+
+@import 'animate.css';
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/fonts/Lato-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Dancing_Script';
+    src: url('./assets/fonts/DancingScript-VariableFont_wght.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Sansita_Swashed';
+    src: url('./assets/fonts/SansitaSwashed-VariableFont_wght.ttf') format('ttf');
+}
+
+input,
+textarea{
+    font-family: Lato;
+}
