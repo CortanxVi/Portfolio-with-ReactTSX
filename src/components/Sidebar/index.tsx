@@ -12,7 +12,7 @@ function Sidebar() {
     <div className="nav-bar">
         <Link className="logo" to='/'>
             <img src={LogoS} alt="Logo Website" />
-            <img className="sub-logo" src={LogoSubtitle} alt="me " />
+            <img className="sub-logo" src={LogoSubtitle} alt="me" />
         </Link>
         <nav>
             <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>
